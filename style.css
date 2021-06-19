@@ -1,0 +1,557 @@
+
+.banner-section{
+    background: url(img/header-bg.jpg) rgba(0, 0, 0, 0.698);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    height: 120vh;
+}
+
+.ccc{
+    background: rgba(0, 0, 0, 0.349);
+}
+.navbar{
+    padding: 0;
+    line-height: 4rem;
+}
+.navbar-brand img{
+    max-width: 100%;
+    height: 2rem;
+}
+.our-primary-manu {
+    padding-left: 0;
+    
+}
+.our-primary-manu li{
+    display: inline-block;
+}
+.our-primary-manu li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 1rem;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+    line-height: 2rem;
+    transition: .4s;
+}
+.our-primary-manu li a:hover{
+    color: #e9889c;
+}
+.header-text {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.navbar-nav li:first-child a{
+    color: #e9889c;
+}
+
+.header-text h5 {
+	color: #fff;
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+
+.header-text h1 {
+    display: inline-block;
+	color: #fff;
+	font-size: 3rem;
+	font-weight: 600;
+	padding: 1rem 0;
+    overflow: hidden;
+    animation-name: runing;
+    animation-duration: 9s;
+    border-right: 3px solid #fff;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(20);
+    width: 0ch; 
+    margin: auto;
+    height: 5rem;
+    
+}
+
+@keyframes runing {
+    0% {
+        width: 0ch;
+    }
+    50% {
+        width: 14ch;
+        color: red;
+    }
+}
+.banner-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-text  {
+    position: relative;
+   
+}
+.mouse {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.mouse i{
+    font-size: 3rem;
+}
+.mouse  a{
+    animation: dropdown 2s infinite;
+    margin: auto;
+    display: inline-block !important;
+    color: #fff;
+    text-align: center;
+}
+
+@keyframes dropdown{
+    0%{
+        transform: translateY(70px);
+
+    }
+
+    50%{
+        transform: translateY(50px);
+    }
+    60%{
+        transform: translateY(65px);
+    }
+    100%{
+        transform: translateY(30px);
+    }
+}
+
+
+
+.header-text p {
+	color: #ddd;
+	width: 43%;
+	margin: auto;
+}
+.header-text a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 1rem 2rem;
+	font-weight: 600;
+	font-size: 1rem;
+	border-radius: 3rem;
+	margin-top: 2rem;
+    transition: .4s;
+    text-transform: uppercase;
+}
+
+/* sticky */
+.sticky{
+    position: fixed;
+}
+/* sticky */
+/* about-section */
+/* about-section */
+.about-section {
+    padding: 5rem 0 2rem 0;
+}
+.about-section .about-img {
+	height: auto;
+	width: 100%;
+	border: 1px solid #00000042;
+	padding: 3px;
+}
+.about-section .about-text h2 {
+	font-weight: 600;
+	color: #111;
+    font-family: 'Montserrat', sans-serif;
+}
+.about-section .about-text h3 {
+	font-size: 2rem;
+	font-family: 'Nunito', sans-serif;
+	padding: .5rem 0;
+}
+.about-section .about-text h3 span{
+    color: #E65F78;
+    font-weight: 600;
+}
+.about-section .about-text p{
+    color: #6c757d;
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.6rem;
+}
+
+.about-social ul{
+    list-style: none;
+    padding-left: 0;
+}
+.about-social ul li{
+    display: inline-block;
+}
+.about-social ul li a{
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    border: 2px solid #d4d4d4;
+    line-height: 2.3rem;
+    border-radius: 50%;
+    margin-left: 1rem;
+    transition: .4s;
+    color: #111;
+}
+.about-social ul li:first-child a{
+    margin-left: 0;
+}
+.about-social ul li a:hover{
+    border-color: tomato;
+    color: tomato;
+}
+
+/* services-section */
+/* services-section */
+.services-section {
+    padding: 5rem 0;
+    background: #F8F9FA;
+}
+
+.services-section .services-text h2 {
+	font-size: 2rem;
+	color: #111;
+    font-family: 'Montserrat', sans-serif;
+}
+.services-section .services-text p {
+	width: 40%;
+	margin: auto;
+	color: #6c757d;
+	padding-top: 1rem;
+    font-family: 'Nunito', sans-serif;
+}
+.media-section{
+    text-align: center;
+    padding: 1.5rem;
+    border: .5px solid #d4d4d462;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+.media-section span {
+    display: inline-block;
+    font-size: 2.5rem;
+    padding: 1rem 0;
+    color: tomato;
+}
+.media-section h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.media-section .line-1{
+    width: 3rem;
+    height: 2px;
+    background: tomato;
+    margin: 1rem auto;
+    transition: .5s;
+}
+.media-section:hover .line-1{
+    width: 4.5rem;
+}
+.media-section p{
+    color: #606060;
+}
+
+/* freelancer-for */
+/* freelancer-for */
+.freelancer-for {
+    font-family: 'Montserrat', sans-serif;
+    padding: 5rem 0;
+}
+.freelancer-for h1{
+    font-size: 2rem;
+}
+.freelancer-for a{
+    text-decoration: none;
+    margin-top: 1.8rem;
+    font-weight: 600;
+    background: #D8576F;
+}
+
+/* our-client-section */
+/* our-client-section */
+.our-client-section {
+    background: #F8F9FA;
+    padding: 5rem 0;
+}
+.our-client-section .client-text{
+    text-align: center;
+}
+.our-client-section .client-text h2 {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.our-client-section .client-text p {
+    font-family: 'Nunito', sans-serif;
+    width: 50%;
+    margin: auto;
+    color: #606060;
+}
+.carousel {
+    height: 23rem;
+}
+.slider-ttb .carousel-item{
+    text-align: center;
+}
+.slider-ttb .carousel-item img{
+    height: 7rem;
+    width: auto;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+}
+.iconn{
+    font-size: 3rem;
+    height: 4rem;
+    width: 4rem;
+    color: crimson;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 2rem;
+
+}
+
+.slider-ttb .carousel-caption{
+    line-height: 1rem;
+    display: inline-block;
+}
+
+.carousel-indicators .curcle{
+    height: .4rem;
+    width: 1rem;
+    background: #E65F78;
+    border: none;
+    margin: .2rem;
+    border-radius: 1rem;
+    border: none;
+}
+.carousel-indicators .active{
+    background: red !important;
+    width: 1.2rem;
+    
+}
+
+/* our-work */
+/* our-work */
+.our-work {
+    padding: 3rem 0;
+    text-align: center;
+}
+.our-work .work-text h2{
+    font-size: 2rem;
+    color: #111;
+    font-family: 'Montserrat', sans-serif;
+}
+.our-work .work-text h2 span{
+    font-weight: 600;
+}
+.our-work .work-text p{
+    width: 40%;
+	margin: auto;
+	color: #6c757d;
+	padding-top: 1rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.portifilo-img{
+    margin-top: .5rem;
+    position: relative;
+    overflow: hidden;
+}
+.portifilo-img:hover .img-text{
+    visibility: visible;
+    opacity: 1;
+    transform: scaleY(1)
+}
+.img-text span{
+    display: inline-block;
+    padding-top: 8rem;
+    font-size: .9rem;
+    color: rgb(165, 159, 159);
+    font-weight: 600;
+}
+.img-text h6{
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.img-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.479);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: .3s;
+    box-shadow: inset 0 .5rem .5rem rgba(rgba(0, 0, 0, 0.596)rgba(0, 0, 0, 0.589)),rgba(rgba(0, 0, 0, 0.575), 0, 0.418),rgba(0, 0, 0, 0.678);
+}
+
+.protfolio-filter{
+    margin: 4rem 0;
+}
+
+.protfolio-filter button{
+    background: none;
+     font-size: 1rem;
+     padding: .5rem 1.2rem;
+     border: none;
+     border-radius: 2rem;
+     color: #111;
+     text-transform: uppercase;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 500;
+     margin: 0 .2rem;
+     transition: .4s;
+}
+.protfolio-filter button.active{
+    background: #E65F78;
+    color: #fff;
+    box-shadow: inset 0 .5rem .5rem rgba(60, 71, 97, 0.5);
+}
+.protfolio-filter button:hover{
+    background: #E65F78;
+    color: #fff;
+    box-shadow: inset 0 .5rem .5rem rgba(60, 71, 97, 0.5);
+}
+
+/* .our-blog */
+/* .our-blog */
+.our-blog{
+    background: #F8F9FA;
+    padding: 2rem 0;
+}
+.our-blog .blog-text  h2 {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.our-blog .blog-text p {
+    font-family: 'Nunito', sans-serif;
+    width: 50%;
+    margin: auto;
+    color: #606060;
+}
+.pp{
+    padding: .5rem;
+}
+.our-blog .text-cad a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #343a40;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 0 .7rem;
+}
+.our-blog .text-cad{
+    padding: 1rem 0;
+}
+.our-blog .text-cad h6{
+    color: #6c757d;
+    font-family: 'Nunito', sans-serif;
+    padding: 0 .7rem;
+
+}
+.our-blog .text-cad a.bb{
+    text-decoration: none;
+    display: inline-block;
+    color: tomato;
+    font-size: 1rem;
+}
+.our-blog .text-cad p{
+    padding: 0 .7rem;
+    color: #6c757d;
+}
+.dd{
+    border: none;
+    margin-top: 2rem;
+}
+.our-blog .text-cad .butt a{
+    font-size: 1rem;
+    color: #6c757d;
+    font-family: 'Nunito', sans-serif;
+    padding: 0 .5rem;
+    margin-left: .5rem;
+    transition: .5s;
+    display: inline-block;
+    font-weight: 600;
+}
+.our-blog .text-cad .butt a:hover{
+    color: tomato;
+}
+
+/* contact-section */
+/* contact-section */
+.contact-section {
+    padding: 4rem 0;
+}
+.contact-section .contact-text h2 {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.contact-section .contact-text p{
+    font-family: 'Nunito', sans-serif;
+    width: 50%;
+    margin: auto;
+    color: #606060;
+    padding-top: 1rem;
+}
+.contact-section .icon-call{
+    padding-top: 2rem;
+}
+.contact-section .icon-call span{
+    display: inline-block;
+    font-size: 2.5rem;
+    color: tomato;
+}
+.contact-section .icon-call h3{
+    font-size: 1.2rem;
+    color: #111;
+    font-weight: 600;
+    padding-top: 1rem;
+}
+
+.form-section input{
+    padding: .5rem;
+    margin-top: 1.1rem;
+}
+.form-section .form-control:focus{
+    box-shadow: none !important;
+    border: 2px solid red;
+}
+/* .form-section input:focus{
+    border: 2px solid red;
+    
+} */
+
+.form-section textarea{
+    padding: .5rem;
+    margin-top: 1.1rem;
+}
+.buttonff{
+    text-align: right;
+    margin-top: 2rem;
+}
+.buttonff button{
+    padding: .9rem 2rem;
+    background: #D8576F;
+    color: #fff;
+    border: none;
+    border-radius: .2rem;
+}
